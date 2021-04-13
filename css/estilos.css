@@ -1,0 +1,106 @@
+body{
+	font-family: 'Dela Gothic One', cursive;
+	background-image: url(../img/fondo1.jpg);
+	margin-top: 10px;
+}
+
+
+header .menu-contenedor a{
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 50px;
+	padding: 2px 5px;
+
+
+}
+header{
+	background-image: url(../img/header.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%
+	opacity: 80%;
+}
+
+.login{
+	font-size: 110%;
+}
+
+header .menu-contenedor{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 32px;
+	margin-right: 10px;
+}
+
+header .menu-contenedor img{
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+
+header a:hover{
+	color: white;
+}
+
+
+.contenedor-form{
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	background: #58ACFA;
+	opacity: 100%;
+	border: 1px solid #f5f5f5;
+	border-radius: 5px;
+	box-shadow: 3px 0px 10px -4px;
+	padding: 30px 200px;
+}
+
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+button{
+	margin-top: 18px;
+	color: white;
+	text-decoration: none;
+
+}
+
+#texto{
+	margin-top: 10px;
+	opacity: 90%;
+}
+
+/****/
+@media screen and (max-width: 480px) {
+header {
+flex-direction: column;
+justify-content: center;
+}
+header .menu-contenedor {
+flex-direction: column;
+margin: 0;
+text-align: center;
+}
+header .menu-contenedor a {
+margin: 0 0 0 0;
+}
+
+ header .logo-contenedor {
+margin-left: 0;
+}
+
+ header img{
+display: none;
+}
+
+ .contenedor{
+margin-left: 0;
+}
+}
